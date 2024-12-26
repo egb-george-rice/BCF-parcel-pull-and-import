@@ -1,4 +1,4 @@
-# Python stuff
+# Write this to .gitignore (use PyCharm editor)
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,10 +7,8 @@ venv/
 .idea/
 *.log
 
-# Large files to exclude
+# Exclude large files
 *.dbf
+*.shp
 *.dll
 proj.db
-
-# Git LFS cleanup
-.git/lfs/
