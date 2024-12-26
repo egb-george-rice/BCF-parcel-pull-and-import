@@ -1,3 +1,4 @@
+# Python stuff
 __pycache__/
 *.py[cod]
 *$py.class
@@ -5,4 +6,11 @@ __pycache__/
 venv/
 .idea/
 *.log
-.git_old/
+
+# Large files to exclude
+*.dbf
+*.dll
+proj.db
+
+# Git LFS cleanup
+.git/lfs/
